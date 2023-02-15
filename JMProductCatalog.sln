@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMProductCatalog.Infra.Data", "JMProductCatalog.Infra.Data\JMProductCatalog.Infra.Data.csproj", "{D8438662-E482-4589-AD4F-175097E77A71}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMProductCatalog.Infra.IoC", "JMProductCatalog.Infra.IoC\JMProductCatalog.Infra.IoC.csproj", "{54C04132-F5A5-4A83-939E-86FCA1D30972}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD808FF6-253A-4946-9416-8AEA7077DBDE} = {AD808FF6-253A-4946-9416-8AEA7077DBDE}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMProductCatalog.WebUI", "JMProductCatalog.WebUI\JMProductCatalog.WebUI.csproj", "{06A4A50A-24F8-4E4F-B1DF-B66C1286E0EF}"
 EndProject
