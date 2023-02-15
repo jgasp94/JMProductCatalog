@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JMProductCatalog.App\JMProductCatalog.App.csproj" />
     <ProjectReference Include="..\JMProductCatalog.Domain\JMProductCatalog.Domain.csproj" />
     <ProjectReference Include="..\JMProductCatalog.Infra.Data\JMProductCatalog.Infra.Data.csproj" />
   </ItemGroup>
