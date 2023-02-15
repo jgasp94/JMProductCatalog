@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace JMProductCatalog.Infra.Data.Identity
+namespace JMProductCatalog.Infra.Data.EntitiesConfigurations
 {
     public class ProductCategory : IEntityTypeConfiguration<Product>
     {

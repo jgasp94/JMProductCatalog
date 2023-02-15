@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="EntitiesConfigurations\" />
+    <Folder Include="Identity\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
