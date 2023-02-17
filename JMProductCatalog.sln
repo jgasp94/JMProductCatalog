@@ -26,7 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Domain", "05 - Domain"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Test", "00 - Test", "{EEF840B5-3CBC-40D5-BB09-E5557755FB03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JMProductCatalog.App", "JMProductCatalog.App\JMProductCatalog.App.csproj", "{AD808FF6-253A-4946-9416-8AEA7077DBDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JMProductCatalog.App", "JMProductCatalog.App\JMProductCatalog.App.csproj", "{AD808FF6-253A-4946-9416-8AEA7077DBDE}"
 	ProjectSection(ProjectDependencies) = postProject
 		{B839CF89-7231-4F9E-960B-CF55AE734C21} = {B839CF89-7231-4F9E-960B-CF55AE734C21}
 	EndProjectSection
