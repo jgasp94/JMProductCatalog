@@ -1,0 +1,45 @@
+﻿@model IEnumerable<JMProductCatalog.App.DTOs.CategoryDTO>
+@{
+    ViewData["Title"] = "Gerenciamento das Categorias";
+}
+
+<div>
+    <h2>@ViewData["Tittle"]</h2>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            <div class="pull-left">
+                <a asp-action="Create" class="btn btn-primary">
+                    <span title="Novo Registro" class="fas fa-plus"></span> Novo Registro
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<div class="panel panel-default">
+    <table class="table table-striped">
+        <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Name)</th>
+                </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+               <tr>
+                   <td>
+                       @Html.DisplayFor(modelItem => item.Name)
+                   </td>
+                   <td>
+                       <a asp-action="Edit" asp-route-id="@item.Id" title="Editar" class="btn btn-warning btn-sm"> <span class="fas fa-edit"></span> Editar</a>
+                       <a asp-action="Details" asp-route-id="@item.Id" title="Detalhes" class="btn btn-info btn-sm"> <span class="fas fa-search">Detalhes</span></a>
+                       <a asp-action="Delete" asp-route-id="@item.Id" title="Excluir" class="btn btn-danger btn-sm"> <span class="fas fa-trash-alt">Excluir</span></a>
+                   </td>
+               </tr>
+            }
+        </tbody>
+    </table>
+</div>

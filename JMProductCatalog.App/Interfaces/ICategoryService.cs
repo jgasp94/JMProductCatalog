@@ -8,6 +8,6 @@ namespace JMProductCatalog.App.Interfaces
         Task<CategoryDTO>  GetCategoryByIdAsync(Guid? CategoryId);
         Task AddAsync(CategoryDTO category);
         Task UpdateAsync(CategoryDTO category);
-        Task DeleteAsync(CategoryDTO CategoryId);
+        Task DeleteAsync(CategoryDTO category);
     }
 }
